@@ -7,5 +7,5 @@ import lombok.*;
 @AllArgsConstructor 
 @NoArgsConstructor 
 public class FetchProfileRequest {
-    private int id;
+    private Integer id;
 }
