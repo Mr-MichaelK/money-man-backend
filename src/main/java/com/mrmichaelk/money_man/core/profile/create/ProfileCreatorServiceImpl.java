@@ -1,10 +1,13 @@
 package com.mrmichaelk.money_man.core.profile.create;
 
+import org.springframework.stereotype.Service;
+
 import com.mrmichaelk.money_man.core.profile.Profile;
 import com.mrmichaelk.money_man.core.profile.ProfileWriter;
 
 import lombok.RequiredArgsConstructor;
 
+@Service 
 @RequiredArgsConstructor 
 public class ProfileCreatorServiceImpl implements ProfileCreatorService {
 

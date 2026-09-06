@@ -7,7 +7,7 @@ import lombok.*;
 @AllArgsConstructor 
 @NoArgsConstructor 
 public class CreateProfileResponse {
-    private int id;
+    private Integer id;
 
     private String name;
 }
